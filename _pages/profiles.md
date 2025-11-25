@@ -9,20 +9,34 @@ nav_order: 7
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    image: profile_mihaibace.jpg
+    content: about_mihaibace.md
+    image_circular: true # crops the image to make it circular
+    more_info: Mihai Bâce
+      <br/>Principal Investigator
+  - align: left
+    image: profile_generic.svg
+    content: about_alexandrepersonnic.md
+    image_circular: true # crops the image to make it circular
+    more_info: Alexandre Personnic
+      <br/>PhD student
+  - align: left
+    image: profile_generic.svg
+    content: about_jierongwen.md
+    image_circular: true # crops the image to make it circular
+    more_info: Jierong Wen
+      <br/>PhD student
+  - align: left
+    image: profile_generic.svg
+    content: about_yijunwang.md
+    image_circular: true # crops the image to make it circular
+    more_info: Yijun Wang
+      <br/>PhD student (affiliated member)
+  - align: left
+    image: profile_generic.svg
+    content: about_diwaslamsal.md
+    image_circular: true # crops the image to make it circular
+    more_info: Diwas Lamsal
+      <br/>PhD student (affiliated member)
 ---

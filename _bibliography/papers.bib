@@ -2,12 +2,14 @@
   title = {{HAIFAI}: {Human}-{AI} {Interaction} for {Mental} {Face} {Reconstruction}},
   shorttitle = {{HAIFAI}},
   url = {http://arxiv.org/abs/2412.06323},
-  doi = {10.48550/arXiv.2412.06323},
+  doi = {10.1145/3725891},
+  abstract = {We present HAIFAI — a novel two-stage system where humans and AI interact to tackle the challenging task of reconstructing a visual representation of a face that exists only in a person’s mind. In the first stage, users iteratively rank images our reconstruction system presents based on their resemblance to a mental image. These rankings, in turn, allow the system to extract relevant image features, fuse them into a unified feature vector and use a generative model to produce an initial reconstruction of the mental image. The second stage leverages an existing face editing method, allowing users to manually refine and further improve this reconstruction using an easy-to-use slider interface for face shape manipulation. To avoid the need for tedious human data collection for training the reconstruction system, we introduce a computational user model of human ranking behaviour. For this, we collected a small face ranking dataset through an online crowd-sourcing study containing data from 275 participants. We evaluate HAIFAI and an ablated version in a 12-participant user study and demonstrate that our approach outperforms the previous state of the art regarding reconstruction quality, usability, perceived workload and reconstruction speed. We further validate the reconstructions in a subsequent face ranking study with 18 participants and show that HAIFAI achieves a new state-of-the-art identification rate of 60.6%. These findings represent a significant advancement towards developing new interactive intelligent systems capable of reliably and effortlessly reconstructing a user’s mental image.},
   journal = {ACM Transactions on Interactive Intelligent Systems (TiiS)},
   author = {Strohm, Florian and Bâce, Mihai and Bulling, Andreas},
   keywords = {journal},
   year = {2025},
-  pdf = {strohm25_tiis.pdf}
+  pdf = {strohm25_tiis.pdf},
+  preview = {strohm25_tiis_teaser.png},
 }
 
 @article{jiao25_tiis,
@@ -20,10 +22,10 @@ issn = {2160-6455},
 url = {https://doi.org/10.1145/3772075},
 doi = {10.1145/3772075},
 abstract = {Modelling human gaze behaviour on 360 ({}^{circ})  images is important for various human-computer interaction applications. However, existing methods are limited to predicting discrete fixation sequences or aggregated saliency maps, thereby neglecting fine-grained gaze behaviour such as saccadic eye movements that can be captured by commercial eye-trackers. We introduce a more challenging task—fine-grained gaze sequence generation. This task aims to generate eye-tracker-like gaze data for given stimuli. We propose DiffGaze, a diffusion-based method for generating realistic and diverse fine-grained human gaze sequences conditioned on 360 ({}^{circ})  images. We evaluate DiffGaze on two 360 ({}^{circ})  image benchmarks for fine-grained gaze sequence generation as well as two downstream tasks, scanpath prediction and saliency prediction. Our evaluations show that DiffGaze outperforms the fine-grained gaze generation baselines in all tasks on both benchmarks. We also report a 21-participant survey study showing that our method generates gaze sequences that are indistinguishable from real human sequences. Taken together, our evaluations not only demonstrate the effectiveness of DiffGaze but also point towards a new generation of methods that faithfully model the rich spatial and temporal nature of natural human gaze behaviour.},
-note = {Just Accepted},
-journal = {ACM Trans. Interact. Intell. Syst.},
+journal = {ACM Transactions on Interactive Intelligent Systems (TiiS)},
 month = oct,
 keywords = {journal},
+pdf = {jiao25_tiis.pdf},
 }
 
 @techreport{strohm24_arxiv_2,
@@ -32,7 +34,10 @@ keywords = {journal},
   keywords = {report},
   year = {2024},
   pages = {1--18},
-  url = {https://arxiv.org/abs/2403.13972}
+  url = {https://arxiv.org/abs/2403.13972},
+  doi = {2403.13972},
+  abstract = {We propose Semantic Facial Feature Control (SeFFeC) - a novel method for fine-grained face shape editing. Our method enables the manipulation of human-understandable, semantic face features, such as nose length or mouth width, which are defined by different groups of facial landmarks. In contrast to existing methods, the use of facial landmarks enables precise measurement of the facial features, which then enables training SeFFeC without any manually annotated labels. SeFFeC consists of a transformer-based encoder network that takes a latent vector of a pre-trained generative model and a facial feature embedding as input, and learns to modify the latent vector to perform the desired face edit operation. To ensure that the desired feature measurement is changed towards the target value without altering uncorrelated features, we introduced a novel semantic face feature loss. Qualitative and quantitative results show that SeFFeC enables precise and fine-grained control of 23 facial features, some of which could not previously be controlled by other methods, without requiring manual annotations. Unlike existing methods, SeFFeC also provides deterministic control over the exact values of the facial features and more localised and disentangled face edits.},
+
 }
 
 @misc{strohm2024upfaceuserpredictablefinegrainedface,
