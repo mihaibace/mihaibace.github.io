@@ -34,8 +34,34 @@ body.sticky-bottom-footer {
 // Profile
 .profile {
   img {
+    max-width: 180px;
     width: 100%;
+    height: auto;
   }
+
+  &.float-left,
+  &.float-right {
+    margin-bottom: 2rem;
+  }
+}
+
+.profile-separator {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  margin: 2rem 0 1rem;
+}
+
+.affiliated-separator {
+  border-top-style: dashed;
+}
+
+.affiliated-separator-label {
+  text-align: center;
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.55);
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 // TODO: redefine content layout.
